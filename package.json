@@ -1,6 +1,6 @@
 {
   "name": "from_number_to_text_vietnamese",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "the package from number to text",
   "main": "index.js",
   "scripts": {

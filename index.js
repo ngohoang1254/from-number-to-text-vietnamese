@@ -1,4 +1,5 @@
 function fromNumberToWordsVN(number) {
+    console.log(1234);
     let numberString = ""
     if (typeof number === "string") {
         numberString = number;
@@ -72,8 +73,10 @@ function fromNumberToWordsVN(number) {
                 string += `${scale[(blocks.length - i - 2) % 3]} `;
             }
         }
+        console.log(string);
         return string;
     } else {
+        console.log("123");
         return '';
     }
 }

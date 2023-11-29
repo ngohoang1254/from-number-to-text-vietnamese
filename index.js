@@ -1,4 +1,4 @@
-function toTextVietnamese(number) {
+export function toTextVietnamese(number) {
     console.log(1234);
     let numberString = ""
     if (typeof number === "string") {

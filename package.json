@@ -1,11 +1,11 @@
 {
-  "name": "from-number-to-text-vietnamese",
+  "name": "from_number_to_text_vietnamese",
   "version": "1.0.0",
   "description": "the package from number to text",
   "main": "index.js",
   "scripts": {
-    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
-    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress"
   },
   "author": "",
   "license": "ISC",

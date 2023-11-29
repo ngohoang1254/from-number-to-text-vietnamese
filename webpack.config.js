@@ -7,8 +7,8 @@ module.exports = {
     entry: resolve(__dirname, 'index.js'),
     output: {
         path: resolve(__dirname, 'dist'),
-        filename: 'from-number-to-text-vietnamese.js',
-        library: 'from-number-to-text-vietnamese'
+        filename: 'to_text_vietnamese.js',
+        library: 'to_text_vietnamese'
     },
     plugins: [
         new UglifyJsPlugin({

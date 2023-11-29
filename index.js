@@ -1,4 +1,4 @@
-function fromNumberToWordsVN(number) {
+function toTextVietnamese(number) {
     console.log(1234);
     let numberString = ""
     if (typeof number === "string") {

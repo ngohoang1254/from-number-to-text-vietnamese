@@ -1,5 +1,4 @@
 export function toTextVietnamese(number) {
-    console.log(1234);
     let numberString = ""
     if (typeof number === "string") {
         numberString = number;
@@ -60,7 +59,7 @@ export function toTextVietnamese(number) {
                     blocks[i].length - 1 !== 0 &&
                     blocks[i][j - 1] !== '0'
                 ) {
-                    string += ' LĂM ';
+                    string += 'LĂM ';
                 } else {
                     if (Number(blocks[i][j]) === 0) {
                     } else {
@@ -73,10 +72,9 @@ export function toTextVietnamese(number) {
                 string += `${scale[(blocks.length - i - 2) % 3]} `;
             }
         }
-        console.log(string);
+        string = string.replaceAll("  ", " ");
         return string;
     } else {
-        console.log("123");
         return '';
     }
 }
